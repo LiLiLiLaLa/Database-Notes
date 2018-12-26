@@ -1,0 +1,15 @@
+like:用于模糊查询
+DDL
+DCL
+DQL
+DML
+InnoDB
+
+ALTER TABLE tablename ADD (column datatype [DEFAULT expr][,column datatype]...);//添加一列
+ALTER TABLE tablename MODIfy (column datatype [DEFAULT expr][,column datatype]...);//修改表内容
+ALTER TABLE tablename DROP (column);//删除列
+
+浮点数？？小数点位置不定
+定点数，小数点位置确定
+
+BLOB、TEXT不限定长度
